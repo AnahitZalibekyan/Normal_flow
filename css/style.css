@@ -1,3 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ {
+  margin: 15px 25px;
+}
 html {
   background-color: black;
 }
@@ -5,64 +13,44 @@ body {
   background-color: #fff;
   margin: 0 auto;
   width: 900px;
+  padding-bottom: 15px;
 }
 header {
   background-color: rgb(94, 90, 90);
   color: #fff;
-  padding: 5px 10px;
+  padding: 5px 25px;
 }
-header + h2 {
-  padding-left: 15px;
+section h2 {
+  border-bottom: 2px solid black;
+  margin: 15px 25px;
+  font-family: "Times New Roman", Times, serif;
 }
-.lorem {
-  padding-left: 15px;
+section p {
+  margin: 15px 25px;
 }
 article {
-  background-color: gray;
-  padding: 15px;
-  margin: 15px;
+  background-color: #6e6c6c;
+  margin: 25px;
+  padding: 10px;
 }
 article img {
   border: 2px solid white;
+  margin: 10px;
 }
-article img:first-of-type {
-  margin: 15px;
-}
-#img {
-  margin-right: 15px;
-  margin-bottom: 15px;
-}
-#picture {
-  margin-bottom: 15px;
-}
-#an {
-  margin-left: 15px;
-  margin-right: 15px;
-  margin-bottom: 15px;
-}
-#bg {
-  margin-bottom: 15px;
-}
-article img:last-of-type {
-  margin: 15px;
-}
-
 div {
   border: 2px solid black;
   background-color: #f1e0c6;
-  margin: 15px;
+  margin: 25px;
 }
 div h2 {
   background-color: rgb(246, 158, 75);
   color: #fff;
-  margin: 0px;
-  padding-left: 10px;
   font-size: 20px;
-}
-div p {
-  padding-left: 10px;
-  padding-right: 10px;
+  padding: 5px 20px;
 }
 div h3 {
-  padding-left: 10px;
+  margin: 15px 25px;
+}
+div p {
+  margin: 15px 25px;
 }
